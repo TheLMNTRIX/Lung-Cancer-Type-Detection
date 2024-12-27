@@ -1,0 +1,48 @@
+{
+    "timestamp": "20241110_094249",
+    "architecture": "resnet50",
+    "num_classes": 4,
+    "metrics": {
+        "per_class_metrics": {
+            "adenocarcinoma": {
+                "correct": 104,
+                "total": 120,
+                "accuracy": 0.8666666666666667,
+                "precision": 0.8387096774193549,
+                "recall": 0.8666666666666667,
+                "f1": 0.8524590163934426
+            },
+            "large_cell_carcinoma": {
+                "correct": 40,
+                "total": 51,
+                "accuracy": 0.7843137254901961,
+                "precision": 0.9523809523809523,
+                "recall": 0.7843137254901961,
+                "f1": 0.8602150537634409
+            },
+            "normal": {
+                "correct": 53,
+                "total": 54,
+                "accuracy": 0.9814814814814815,
+                "precision": 1.0,
+                "recall": 0.9814814814814815,
+                "f1": 0.9906542056074766
+            },
+            "squamous_cell_carcinoma": {
+                "correct": 81,
+                "total": 90,
+                "accuracy": 0.9,
+                "precision": 0.84375,
+                "recall": 0.9,
+                "f1": 0.8709677419354839
+            }
+        },
+        "overall_metrics": {
+            "accuracy": 0.8825396825396825,
+            "precision": 0.9087101574500768,
+            "recall": 0.883115468409586,
+            "f1": 0.893574004424961
+        }
+    },
+    "model_filename": "lung_cancer_resnet_20241110_094249.pth"
+}

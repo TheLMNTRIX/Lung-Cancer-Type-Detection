@@ -1,0 +1,74 @@
+{
+    "timestamp": "20241209_071826",
+    "architecture": "densenet121_se",
+    "num_classes": 4,
+    "metrics": {
+        "per_class_metrics": {
+            "adenocarcinoma": {
+                "correct": 113,
+                "total": 120,
+                "accuracy": 0.9416666666666667,
+                "precision": 0.9576271186440678,
+                "recall": 0.9416666666666667,
+                "f1": 0.9495798319327731
+            },
+            "large_cell_carcinoma": {
+                "correct": 51,
+                "total": 51,
+                "accuracy": 1.0,
+                "precision": 0.9107142857142857,
+                "recall": 1.0,
+                "f1": 0.9532710280373832
+            },
+            "normal": {
+                "correct": 53,
+                "total": 54,
+                "accuracy": 0.9814814814814815,
+                "precision": 1.0,
+                "recall": 0.9814814814814815,
+                "f1": 0.9906542056074766
+            },
+            "squamous_cell_carcinoma": {
+                "correct": 86,
+                "total": 90,
+                "accuracy": 0.9555555555555556,
+                "precision": 0.9772727272727273,
+                "recall": 0.9555555555555556,
+                "f1": 0.9662921348314607
+            }
+        },
+        "overall_metrics": {
+            "precision": 0.9614035329077701,
+            "recall": 0.969675925925926,
+            "f1": 0.9649493001022734,
+            "accuracy": 0.9619047619047619
+        },
+        "confusion_matrix": [
+            [
+                113,
+                5,
+                0,
+                2
+            ],
+            [
+                0,
+                51,
+                0,
+                0
+            ],
+            [
+                1,
+                0,
+                53,
+                0
+            ],
+            [
+                4,
+                0,
+                0,
+                86
+            ]
+        ]
+    },
+    "model_filename": "lung_cancer_densenet_se_20241209_071826.pth"
+}
